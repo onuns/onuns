@@ -1,35 +1,21 @@
-# Vue.js
+# Welcome to my page
 
-This directory is a brief example of a [Vue.js](https://vuejs.org/) app that can be deployed to Vercel with zero configuration.
+Hello everyone, I'm **John Doe** and this is my page.
 
-## Deploy Your Own
+I'm a software engineer and I love to create things. I'm passionate about coding and I'm always looking for new challenges.
 
-Deploy your own Vue.js project with Vercel.
+## My Projects
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vue&template=vue)
+* **Project A** - A web application that helps people find the best restaurants in their area.
 
-_Live Example: https://vue-template.vercel.app_
+* **Project B** - A mobile app that helps people track their fitness goals.
 
-## Running Locally
+* **Project C** - A machine learning algorithm that can predict stock prices.
 
-```
-yarn install
-```
+## Contact Me
 
-#### Compile and hot-reload for development
+If you have any questions or would like to collaborate on a project, feel free to reach out to me.
 
-```
-yarn serve
-```
+Email: john.doe@example.com
 
-#### Compile and minify for production
-
-```
-yarn build
-```
-
-#### Lint and fix files
-
-```
-yarn lint
-```
+Phone: +1 (123) 456-7890
