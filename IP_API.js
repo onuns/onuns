@@ -45,6 +45,6 @@ var obj = JSON.parse(body);
 var title =flags.get(obj['short_name']) + ' '+ City_ValidCheck(obj['province']);//+Area_check(obj['country']);
 var subtitle = ISP_ValidCheck(obj['isp']);
 var ip = obj['ip'];
-var city0 = obj['ip'];
+var city0 = obj['country'];
 var description = '服务商:'+obj['isp'] + '\n'+'地区:' +City_ValidCheck(obj['province'])+ '\n' + 'IP:'+ obj['ip']+ '\n' + '网络类型:'+ obj['net'];
 $done({title, subtitle, ip, description});
