@@ -9,16 +9,6 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-function City_ValidCheck(para) {
-  if(para) {
-  return para
-  } else
-  {
-  return city0
-//emojis[getRandomInt(emojis.length)]
-  }
-}
-
 function ISP_ValidCheck(para) {
   if(para) {
   return para
@@ -46,5 +36,14 @@ var title =flags.get(obj['short_name']) + ' '+ City_ValidCheck(obj['province']);
 var subtitle = ISP_ValidCheck(obj['isp']);
 var ip = obj['ip'];
 var city0 = obj['country'];
+function City_ValidCheck(para) {
+  if(para) {
+  return para
+  } else
+  {
+  return city0
+//emojis[getRandomInt(emojis.length)]
+  }
+}
 var description = '服务商:'+obj['isp'] + '\n'+'地区:' +City_ValidCheck(obj['province'])+ '\n' + 'IP:'+ obj['ip']+ '\n' + '网络类型:'+ obj['net'];
 $done({title, subtitle, ip, description});
