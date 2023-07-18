@@ -2,8 +2,7 @@ if ($response.statusCode != 200) {
   $done(null);
 }
 
-const emojis= ['🆘','🈲','⚠️','🔞','📵','🚦','🏖','🖥','📺','🐧','🐬','🦉','🍄','⛳️','🚴','🤑','👽','🤖','🎃', '👺', '👁', '🐶', '🐼','🐌', '👥']
-//var city0 = "高谭市";
+const emojis= ['🆘','🈲','⚠️','🔞','📵','🚦','🏖','🖥','📺','🐧','🐬','🦉','🍄','⛳️','🚴','🤑','👽','🤖','🎃', '👺', '👁', '🐶', '🐼','🐌', '👥'];
 var isp0 = "Cross-GFW.org";
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
@@ -46,4 +45,4 @@ function City_ValidCheck(para) {
   }
 }
 var description = '服务商:'+obj['isp'] + '\n'+'地区:' +City_ValidCheck(obj['province'])+ '\n' + 'IP:'+ obj['ip']+ '\n' + '网络类型:'+ obj['net'];
-$done({title, subtitle, ip, description});
+$done({title, subtitle, city0, ip, description});
